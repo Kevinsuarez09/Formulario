@@ -1,0 +1,139 @@
+body{
+    background: #808080;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    margin: 13px 0;
+}
+
+body form{
+    margin: 0 auto;
+    width: 450px;
+    padding: 20px 50px;
+    background: #fff;
+}
+
+body form label{
+    display: block;
+    margin-top: 10px;
+    color: #be2a10;
+    font-size: 18px;
+}
+
+body form input, body form textarea{
+    width: 90%;
+    padding: 4px;
+    font-size: 15px;
+}
+
+body form select{
+    width: 92%;
+    padding: 4px;
+    font-size: 15px;
+}
+
+body form button{
+    width: 50%;
+    padding: 4px;
+    font-size: 15px;
+    color: #fff;
+    background: #808080;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+body #avatar{
+    margin: 0 auto;
+    width: 450px;
+    height: 660px;
+    padding: 10px 50px;
+    background: #fff; 
+}
+
+body #avatar img{
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 30%;
+    border: #fff solid 2px;
+}
+
+body #avatar h3{
+    margin: 8px 15px 0 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+body #avatar p{
+    margin: 0 20px;
+    width: 90%;
+    padding: 2px;
+    font-size: 18px;
+    border: #000 solid 1px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+body #avatar.Azul{
+    background: #225dccc2; 
+}
+
+body #avatar.Rojo{
+    background: #be2a10; 
+}
+
+body #avatar.Negro{
+    background: #000; 
+}
+
+body #btnChat{
+    position: absolute;
+    z-index: 0;
+    padding: 5px 15px;
+    background-color: #1fa3e0f6;
+    color: #fff;
+    transform: rotate(-90deg);
+    right: -30px;
+    top: 72px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+body #formchat{
+    margin: 0 auto;
+    width: 240px;
+    position: absolute;
+    background: #1fa3e086;
+    text-align: center;
+    padding: 10px 5px;
+    border: #000 solid 1px;
+    right: -260px;
+    transition: 0.5s;
+}
+
+body #formchat input, body #formchat textarea{
+    margin: 10px 0;
+}
+
+body #formchat button{
+    margin-top: 0;
+    margin-left: 0;
+    color: #ffffffd8;
+    background: #808080b6;
+}
+
+body #formchat.active{
+    right: -8px;
+    transition: 0.3s;
+}
+
+body #btnChat.active{
+    right: 222px;
+    transition: 0.3s;
+}
